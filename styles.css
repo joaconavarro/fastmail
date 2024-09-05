@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-color: #f5a623; /* Main color */
+    background-color: #a70a0a; /* Main color */
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -28,11 +28,11 @@ body {
 }
 
 .header .top-section {
-    background-color: #f5a623; /* Main color */
+    background-color: #a70a0a; /* Main color */
 }
 
 .header .bottom-section {
-    background-color: #d94f04; /* CTA buttons color */
+    background-color: #b1abab; /* Secondary color */
 }
 
 .header .logo {
@@ -79,7 +79,7 @@ body {
 }
 
 .lang-btn {
-    background-color: #f5a623; /* Main color */
+    background-color: #a70a0a; /* Main color */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -90,11 +90,11 @@ body {
 }
 
 .lang-btn:hover {
-    background-color: #d94f04; /* CTA buttons color */
+    background-color: #b1abab; /* Secondary color */
 }
 
 .hero {
-    background-color: #f5a623; /* Main color */
+    background-color: #a70a0a; /* Main color */
     padding: 120px 20px 80px;
     text-align: center;
     background-image: url('hero-background.jpg'); /* Replace with the actual image URL */
@@ -117,7 +117,7 @@ body {
 }
 
 .cta-button {
-    background-color: #d94f04; /* CTA buttons color */
+    background-color: #0e44a7; /* CTA buttons color */
     color: #fff;
     padding: 15px 30px;
     text-decoration: none;
@@ -129,7 +129,7 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #b9401f; /* Hover color */
+    background-color: hsl(348deg 44% 82%); /* Hover color */
 }
 
 .content {
@@ -142,7 +142,7 @@ body {
     font-size: 2.5em;
     margin-top: 0;
     text-align: center;
-    color: #d94f04; /* CTA buttons color */
+    color: #0e44a7; /* CTA buttons color */
 }
 
 .feature {
@@ -156,7 +156,7 @@ body {
 .feature h3 {
     font-size: 1.8em;
     margin: 0;
-    color: #d94f04; /* CTA buttons color */
+    color: #0e44a7; /* CTA buttons color */
 }
 
 .feature p {
@@ -165,7 +165,7 @@ body {
 }
 
 button {
-    background-color: #f5a623; /* Main color */
+    background-color: #a70a0a; /* Main color */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -177,11 +177,11 @@ button {
 }
 
 button:hover {
-    background-color: #d94f04; /* CTA buttons color */
+    background-color: #b1abab; /* Secondary color */
 }
 
 .footer {
-    background-color: #f5a623; /* Main color */
+    background-color: #a70a0a; /* Main color */
     color: #fff;
     padding: 20px;
     text-align: center;
