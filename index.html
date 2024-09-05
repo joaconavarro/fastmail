@@ -4,158 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fastmail</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Enlace a tu archivo CSS -->
-    <style>
-        /* CSS mejorado para imitar el estilo de Canada Post */
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        .header {
-            background-color: #003b5c;
-            color: #fff;
-            padding: 15px 20px;
-            text-align: center;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .header .logo {
-            font-size: 1.8em;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-        .header nav {
-            display: flex;
-            gap: 20px;
-        }
-        .header nav a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1em;
-            font-weight: 500;
-        }
-        .hero {
-            background-color: #003b5c;
-            padding: 120px 20px 80px;
-            text-align: center;
-            background-image: url('hero-background.jpg'); /* Reemplaza con la URL de la imagen real */
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            height: 500px;
-            position: relative;
-        }
-        .hero h1 {
-            font-size: 3.5em;
-            margin: 0;
-            font-weight: bold;
-        }
-        .hero p {
-            font-size: 1.4em;
-            margin: 20px 0;
-        }
-        .cta-button {
-            background-color: #e4002b;
-            color: #fff;
-            padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 25px;
-            font-size: 1.2em;
-            font-weight: bold;
-            display: inline-block;
-            transition: background-color 0.3s ease;
-        }
-        .cta-button:hover {
-            background-color: #c3001a;
-        }
-        .content {
-            padding: 40px 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .content h2 {
-            font-size: 2.5em;
-            margin-top: 0;
-            text-align: center;
-            color: #003b5c;
-        }
-        .feature {
-            background-color: #f8f8f8;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .feature h3 {
-            font-size: 1.8em;
-            margin: 0;
-            color: #003b5c;
-        }
-        .feature p {
-            font-size: 1.1em;
-            margin: 10px 0;
-        }
-        button {
-            background-color: #003b5c;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-size: 1em;
-            cursor: pointer;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-        }
-        button:hover {
-            background-color: #002a47;
-        }
-        .footer {
-            background-color: #003b5c;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-            margin-top: 40px;
-        }
-        .footer a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-            font-size: 0.9em;
-        }
-        .footer a:hover {
-            text-decoration: underline;
-        }
-        .footer p {
-            margin: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
-        <div class="logo">Fastmail</div>
-        <div class="access">
-            <a href="#">Fast Mail E-commerce</a>
-            <a href="#">Fast Mail Postal</a>            
+        <div class="top-section">
+            <div class="logo">Fastmail</div>
+            <div class="access">
+                <a href="#">Fast Mail E-commerce</a>
+                <a href="#">Fast Mail Postal</a>
+            </div>
         </div>
-        <div class="social">
-            <img>
-            <img>
-            <img>
+        <div class="bottom-section">
+            <div class="social">
+                <img src="facebook-icon.png" alt="Facebook"> <!-- Replace with actual image sources -->
+                <img src="twitter-icon.png" alt="Twitter">
+                <img src="instagram-icon.png" alt="Instagram">
+            </div>
+            <nav>
+                <a href="#">Quienes somos</a>
+                <a href="#">Servicios</a>
+                <a href="#">Preguntas Frecuentes</a>
+                <a href="#">Seguí tu envío</a>
+            </nav>
         </div>
-        <nav>
-            <a href="#">Quienes somos</a>
-            <a href="#">Servicios</a>
-            <a href="#">Preguntas Frecuentes</a>
-            <a href="#">Seguí tu envío</a>
-        </nav>
     </header>
 
     <section class="hero">
