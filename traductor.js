@@ -1,4 +1,3 @@
-// scripts.js
 
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize Google Translate when the page loads
