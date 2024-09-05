@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-color: #981c20; /* Main Color */
+    background-color: #004d40; /* Main Color */
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -28,11 +28,11 @@ body {
 }
 
 .header .top-section {
-    background-color: #981c20; /* Main Color */
+    background-color: #004d40; /* Main Color */
 }
 
 .header .bottom-section {
-    background-color: #0d3d65; /* Secondary Color */
+    background-color: #0097a7; /* Secondary Color */
 }
 
 .header .logo {
@@ -51,16 +51,16 @@ body {
     text-decoration: none;
     font-size: 0.9em;
     font-weight: 500;
-    background-color: #87d3f0; /* CTA Buttons Color */
-    border: 2px solid #87d3f0; /* Border to make it look like CTA button */
+    background-color: #00bcd4; /* CTA Buttons Color */
+    border: 2px solid #00bcd4; /* Border to make it look like CTA button */
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .header .access a:hover {
-    background-color: #e62a28; /* Hover Color */
-    border-color: #e62a28; /* Hover Border Color */
+    background-color: #00796b; /* Hover Color */
+    border-color: #00796b; /* Hover Border Color */
 }
 
 .header .social img {
@@ -89,7 +89,7 @@ body {
 }
 
 .lang-btn {
-    background-color: #981c20; /* Main Color */
+    background-color: #004d40; /* Main Color */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -100,11 +100,11 @@ body {
 }
 
 .lang-btn:hover {
-    background-color: #0d3d65; /* Secondary Color */
+    background-color: #0097a7; /* Secondary Color */
 }
 
 .hero {
-    background-color: #0d3d65; /* Secondary Color */
+    background-color: #0097a7; /* Secondary Color */
     padding: 120px 20px 80px;
     text-align: center;
     background-image: url('hero-background.jpg'); /* Replace with the actual image URL */
@@ -127,7 +127,7 @@ body {
 }
 
 .cta-button {
-    background-color: #87d3f0; /* CTA Buttons Color */
+    background-color: #00bcd4; /* CTA Buttons Color */
     color: #fff;
     padding: 15px 30px;
     text-decoration: none;
@@ -139,7 +139,7 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #e62a28; /* Hover Color */
+    background-color: #00796b; /* Hover Color */
 }
 
 .content {
@@ -152,7 +152,7 @@ body {
     font-size: 2.5em;
     margin-top: 0;
     text-align: center;
-    color: #87d3f0; /* CTA Buttons Color */
+    color: #00bcd4; /* CTA Buttons Color */
 }
 
 .feature {
@@ -166,7 +166,7 @@ body {
 .feature h3 {
     font-size: 1.8em;
     margin: 0;
-    color: #87d3f0; /* CTA Buttons Color */
+    color: #00bcd4; /* CTA Buttons Color */
 }
 
 .feature p {
@@ -175,7 +175,7 @@ body {
 }
 
 button {
-    background-color: #981c20; /* Main Color */
+    background-color: #004d40; /* Main Color */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -187,11 +187,11 @@ button {
 }
 
 button:hover {
-    background-color: #0d3d65; /* Secondary Color */
+    background-color: #0097a7; /* Secondary Color */
 }
 
 .footer {
-    background-color: #981c20; /* Main Color */
+    background-color: #004d40; /* Main Color */
     color: #fff;
     padding: 20px;
     text-align: center;
