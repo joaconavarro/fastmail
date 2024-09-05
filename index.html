@@ -5,38 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fastmail</title>
     <link rel="stylesheet" href="styles.css"> <!-- Enlace a tu archivo CSS -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'es', // Default language of the page
+                includedLanguages: 'en,es', // Languages you want to include
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 <body>
     <header class="header">
-        <div class="top-section">
-            <div class="logo">Fastmail</div>
-            <div class="access">
-                <a href="#">Fast Mail E-commerce</a>
-                <a href="#">Fast Mail Postal</a>
-            </div>
-            <div class="traductor">
-                <button class="lang-btn" id="es-btn">
-                    <img src="spanish-flag.png" alt="Español" class="flag-icon"> ES
-                </button>
-                <button class="lang-btn" id="en-btn">
-                    <img src="uk-flag.png" alt="English" class="flag-icon"> EN
-                </button>
-            </div>
+    <div class="top-section">
+        <div class="logo">Fastmail</div>
+        <div class="access">
+            <a href="#">Fast Mail E-commerce</a>
+            <a href="#">Fast Mail Postal</a>
         </div>
-        <div class="bottom-section">
-            <div class="social">
-                <img src="facebook-icon.png" alt="Facebook">
-                <img src="twitter-icon.png" alt="Twitter">
-                <img src="instagram-icon.png" alt="Instagram">
-            </div>
-            <nav>
-                <a href="#">Quienes somos</a>
-                <a href="#">Servicios</a>
-                <a href="#">Preguntas Frecuentes</a>
-                <a href="#">Seguí tu envío</a>
-            </nav>
+        <div class="traductor">
+            <button class="lang-btn" id="es-btn">
+                <img src="spanish-flag.png" alt="Español" class="flag-icon"> ES
+            </button>
+            <button class="lang-btn" id="en-btn">
+                <img src="uk-flag.png" alt="English" class="flag-icon"> EN
+            </button>
         </div>
-    </header>
+    </div>
+    <div class="bottom-section">
+        <div class="social">
+            <img src="facebook-icon.png" alt="Facebook">
+            <img src="twitter-icon.png" alt="Twitter">
+            <img src="instagram-icon.png" alt="Instagram">
+        </div>
+        <nav>
+            <a href="#">Quienes somos</a>
+            <a href="#">Servicios</a>
+            <a href="#">Preguntas Frecuentes</a>
+            <a href="#">Seguí tu envío</a>
+        </nav>
+    </div>
+</header>
+
+<div id="google_translate_element"></div>
+
 
     <section class="hero">
         <h1>Socios estratégicos de nuestros clientes</h1>
