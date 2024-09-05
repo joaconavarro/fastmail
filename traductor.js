@@ -1,5 +1,3 @@
-// scripts.js
-
 document.addEventListener('DOMContentLoaded', function() {
     function switchLanguage(languageCode) {
         var googleTranslateFrame = document.querySelector('iframe.goog-te-menu-frame');
