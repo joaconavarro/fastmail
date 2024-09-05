@@ -1,21 +1,23 @@
+// scripts.js
 
 document.addEventListener('DOMContentLoaded', function() {
-    function translatePage(languageCode) {
-        if (window.google && google.translate) {
-            var translate = google.translate.TranslateElement.getInstance();
-            if (translate) {
-                translate.setEnabled(true);
-                translate.setLanguage(languageCode);
-            }
+    function switchLanguage(languageCode) {
+        var iframe = document.querySelector('iframe.goog-te-menu-frame');
+        if (iframe) {
+            var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+            var langOptions = iframeDoc.querySelectorAll('.goog-te-menu2-item span.text');
+            langOptions.forEach(function(option) {
+                if (option.textContent.includes(languageCode)) {
+                    option.click();
+                }
+            });
         } else {
-            // Google Translate API not yet loaded
-            setTimeout(function() {
-                translatePage(languageCode);
-            }, 1000); // Retry after 1 second
+            // Retry if iframe is not yet available
+            setTimeout(() => switchLanguage(languageCode), 1000);
         }
     }
 
     document.getElementById('translate-btn').addEventListener('click', function() {
-        translatePage('en'); // Change to 'en' for English
+        switchLanguage('English'); // Use 'English' to switch to English
     });
 });
