@@ -1,28 +1,21 @@
+
 document.addEventListener('DOMContentLoaded', function() {
-    function switchLanguage(languageCode) {
-        var googleTranslateFrame = document.querySelector('iframe.goog-te-menu-frame');
-        if (googleTranslateFrame) {
-            var googleTranslateDocument = googleTranslateFrame.contentDocument || googleTranslateFrame.contentWindow.document;
-            var languageOption = Array.from(googleTranslateDocument.querySelectorAll('.goog-te-menu2-item span.text')).find(item => item.textContent.includes(languageCode));
-            if (languageOption) {
-                languageOption.click();
+    function translatePage(languageCode) {
+        if (window.google && google.translate) {
+            var translate = google.translate.TranslateElement.getInstance();
+            if (translate) {
+                translate.setEnabled(true);
+                translate.setLanguage(languageCode);
             }
         } else {
-            // Google Translate frame not yet available
-            setTimeout(() => switchLanguage(languageCode), 1000);
+            // Google Translate API not yet loaded
+            setTimeout(function() {
+                translatePage(languageCode);
+            }, 1000); // Retry after 1 second
         }
     }
 
     document.getElementById('translate-btn').addEventListener('click', function() {
-        // Ensure Google Translate script is loaded
-        if (typeof google !== 'undefined' && google.translate) {
-            switchLanguage('English'); // Switch to English
-        } else {
-            // Load Google Translate script if not already present
-            var script = document.createElement('script');
-            script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
-            document.head.appendChild(script);
-            script.onload = () => switchLanguage('English'); // Switch language once script is loaded
-        }
+        translatePage('en'); // Change to 'en' for English
     });
 });
